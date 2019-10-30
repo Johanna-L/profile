@@ -1,0 +1,79 @@
+body {
+  background: rgba(234, 210, 172, 0.5);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: rgba(29, 32, 31, 0.7);
+  line-height: 25px;
+}
+
+h1, h2, h3 {
+  color: #DF928E;
+  font-family: 'Quicksand', sans-serif;
+  font-size: x-large;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(29, 32, 31, 0.7);
+}
+
+a:hover {
+  color: #D1DEDE;
+}
+
+.fab {
+  text-decoration: none;
+  font-size: 35px;
+  color: rgba(223, 146, 142, 0.8);
+}
+
+.image-circle {
+  border-radius: 50%
+}
+
+.card {
+  background: #fffcfc;
+  border-radius: 5px;
+  width: 70%;
+  padding: 30px;
+  margin: 30px auto;
+  box-shadow: 4px 4px 4px rgba(29, 32, 31, 0.3);
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.button {
+  background: rgba(29, 32, 31, 0.3);
+  padding: 10px;
+  line-height: 45px;
+}
+
+#profile-pic {
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
